@@ -1,0 +1,24 @@
+{
+  "name": "gatsby",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "latest",
+    "@emotion/styled": "latest",
+    "@material-ui/core": "next",
+    "@material-ui/styles": "next",
+    "gatsby": "latest",
+    "gatsby-plugin-emotion": "latest",
+    "gatsby-plugin-material-ui": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
